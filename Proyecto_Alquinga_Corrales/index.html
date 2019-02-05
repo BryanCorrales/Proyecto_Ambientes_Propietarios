@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Grafico</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scalable=1, maximun-scale=1, minimun-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/fontello.css">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="shortcut icon" href="img/planeta.jpg"/>
+	</head>
+	
+	<body>
+		<header>
+			<div class="contenedor">
+				<h1 class="icon-globe">Gráficos</h1>
+				<input type="checkbox" id="menu-bar">
+				<label class="icon-menu" for="menu-bar"></label>
+				<nav class="menu">
+					<a href="#">Inicio</a>
+					<a href="page/informacion.html">Información</a>
+					<a href="page/contactos.html">Contactos</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="banner">
+				<img src="img/banner.jpg">
+				<div class="contenedor">
+					<h2>Gráficos</h2>
+					<p>¿Qué datos podemos encontrar?</p>
+					<a href="http://www.datosabiertos.gob.ec/" target="_blank">Leer más</a>
+				</div>
+			</section>	
+
+			<section id="bienvenidos">
+				<h2>BIENVENIDOS</h2>
+				<p>Aquí encontrarás los datos más relevantes del ecuador</p>
+			</section>
+
+			<section id="blog">
+				<h3>Lo último de nuestro blog</h3>
+				<div class="contenedor">
+					<article>
+						<img src="img/archivo.png" alt="">
+						<h4>Subir Archivo</h4>
+						<form action='codigo.php' method='post' enctype="multipart/form-data">
+							<input type='file' name='sel_file' size='20'>
+						<input type='submit' name='submit' value='submit'>
+					</article>
+					<article>
+						<a href="grafico.php" title="Consultar Gráfico"><img src="img/pastel.jpg" border="0" height="250px"></a>
+						<h4>Visualizar Gráfico</h4>
+						<!--
+						<img src="img/pastel.jpg" alt="">
+						<a href="#">Mostrar Gráfico</a>
+						-->
+					</article>
+					<article>
+						<a href="grafico2.php" title="Consultar Gráfico"><img src="img/visual.png" border="0" height="250px"></a>
+						<h4>Visualizar Grafico 2</h4>
+					</article>
+					<article>
+						<a href="grafico3.php" title="Consultar Gráfico"><img src="img/dona.jpg" border="0" height="250px"></a>
+						<h4>Visualizar Grafico 3</h4>
+					</article>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="contenedor">
+				<p class="copy">ESFOT &copy; 2019</p>
+				<div class="sociales">
+					<a class="icon-facebook-official" href="https://www.facebook.com/" target="_blank"></a>
+					<a class="icon-twitter" href="https://twitter.com/AdmPublicaEc" target="_blank"></a>
+					<a class="icon-instagram" href="https://www.instagram.com/" target="_blank"></a>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
